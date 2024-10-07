@@ -27,6 +27,7 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -65,5 +66,48 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+
+@media (14) {
+  :root {
+    color: #213547;
+    background-color: #eecce1;
+  }
+
+  a:hover {
+    color: #a032aa;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+@media (max-width: 900px) {
+  body {
+    font-size: 14px;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+  body {
+margin: 0 auto;
+  
+
+}
+
+  
+
+
+  button {
+    margin-bottom: 10px;
+    width: 70px;
+    padding: 10px;
+
   }
 }
